@@ -8,7 +8,7 @@ from pypdf import PdfReader, PdfWriter, Transformation
 # ────────────────────────────────────────────────────────────────────────────────
 LETTER_WIDTH  = 612   # 8.5 in × 72 pt
 LETTER_HEIGHT = 792   # 11 in × 72 pt
-JPEG_QUALITY  = 50    # Calidad JPEG (0–100)
+JPEG_QUALITY  = 75    # Calidad JPEG (0–100)
 
 st.set_page_config(page_title="Image ⇢ PDF • PDF Merger", page_icon="📄")
 
@@ -155,3 +155,4 @@ else:
             )
         else:
             st.warning("No se añadió ninguna página válida.")
+
